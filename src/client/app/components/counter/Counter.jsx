@@ -6,8 +6,8 @@ import { addNumber, removeNumber } from './CounterAction'
 const Counter = ({ number, onIncrementClick, onDecrementClick }) => (
   <div>
     <p>{number}</p>
-    <button onClick={ () => onIncrementClick() }>Increment</button>
-    <button onClick={ () => onDecrementClick() }>Decrement</button>
+    <button onClick={ () => { onIncrementClick() }}>Increment</button>
+    <button onClick={ () => { onDecrementClick() }}>Decrement</button>
   </div>
 )
 
