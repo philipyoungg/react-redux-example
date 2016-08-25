@@ -1,4 +1,4 @@
-import * as types from '../../constants/actionTypes'
+import types from '../../constants/actionTypes'
 
 export const todo = (state = {
   loaded: false,
